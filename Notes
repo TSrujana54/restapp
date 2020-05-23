@@ -1,0 +1,44 @@
+Objective:
+	- RestAPI
+	- Keep Note Step-3
+	
+Rest:
+	Method Type:
+		- GET : Retrieve - Idempotent
+		- PUT : Update  User Dave, Mario- Idempotent
+		- DELETE : Delete,User -  Idempotent
+		- POST	: Add New Object  - NonIdempotent
+		
+	URI :
+		Movie:
+			- MovieId
+				- like
+				- feedback
+					1,2,3---n
+				- ratings
+			- Price:
+				- discount
+				
+		http://localhost:8080/movies --->CollectionBasedURI	
+		http:                /movies/movieId --->ResourceBasedURI
+							movies/movieId/feedbacks-->	CollectionBased
+							movies/movieId/feedback1/feedbackId-->RBU
+							
+	StatusCode:
+								
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+				
+				
+				
+				
+				
+				
